@@ -55,6 +55,10 @@ void draw__pumpkin(){
     ellipse(width/2+pumpkinHeight/5, pumpkinY+5, pumpkinHeight/3, pumpkinHeight*0.9);
     ellipse(width/2-pumpkinHeight/5, pumpkinY+5, pumpkinHeight/3, pumpkinHeight*0.9);
     ellipse(width/2, pumpkinY+7, pumpkinHeight/2, pumpkinHeight*0.95);
+
+    // Task bar
+    fill(20, 20, 20);
+    rect(0, 0, WIDTH, 30);
 }
 
 void draw() {
