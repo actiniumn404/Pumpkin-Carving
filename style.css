@@ -1,0 +1,8 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+canvas{
+    user-select: none;
+    outline: 0;
+}
